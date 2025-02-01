@@ -51,16 +51,15 @@ li {
     position: absolute;
     top: 50px;
     left: -220px;
- 
     transition: left 0.5s ease;
 }
 
 .hide {
     left: -700px;
-   
+    top: 1px;
 }
 
 .show {
     left: 1327px;
-   
+    top: 1px;
 }
