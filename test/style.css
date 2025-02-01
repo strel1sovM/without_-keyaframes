@@ -20,6 +20,7 @@
 }
 
 .svgs button {
+    cursor: pointer;
     border: none;
     background-color: transparent;
 }
@@ -37,6 +38,7 @@ li {
 }
 
 .btn {
+    cursor: pointer;
     background-color: black;
     color: white;
     margin-top: 26px;
