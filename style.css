@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hiden {
+
+    opacity: 1;
+}
+
+.svgs {
+    direction: rtl;
+}
+
+.svgs button {
+    border: none;
+    background-color: transparent;
+}
+
+h2 {
+    color: white;
+    padding-left: 86px;
+    padding-bottom: 31px;
+}
+
+li {
+    color: white;
+    padding-left: 58px;
+    padding-bottom: 12px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    margin-top: 26px;
+    margin-left: 26px;
+    width: 420px;
+    height: 48px;
+}
+
+.hiden {
+    background-color: black;
+    width: 592px;
+    position: absolute;
+    top: 50px;
+    left: -220px;
+ 
+    transition: left 0.5s ease;
+}
+
+.hide {
+    left: -700px;
+   
+}
+
+.show {
+    left: 1327px;
+   
+}
